@@ -3,6 +3,7 @@ https://www.nikolatech.net/blogs/implement-jwt-authentication-in-dotnet
 
 # Tech Stack
 + .NET Core application
++ Clean Architecture
 + JWT (JSON Web Token)
   + Install-Package Microsoft.AspNetCore.Authentication.JwtBearer
   + .UseAuthentication
@@ -17,39 +18,39 @@ https://www.nikolatech.net/blogs/implement-jwt-authentication-in-dotnet
 + FluentResults
 
 ## Business
-+ <PackageReference Include="FluentResults" Version="3.16.0" />
-+ <PackageReference Include="FluentValidation" Version="11.10.0" />
-+ <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.10.0" />
-+ <PackageReference Include="Mapster" Version="7.4.0" />
-+ <PackageReference Include="MediatR" Version="12.4.1" />
-+ <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.10" />
-+ <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.2" />
++ FluentResults Version 3.16.0" />
++ FluentValidation Version 11.10.0" />
++ FluentValidation.DependencyInjectionExtensions Version 11.10.0" />
++ Mapster Version 7.4.0" />
++ MediatR Version 12.4.1" />
++ Microsoft.EntityFrameworkCore Version 8.0.10" />
++ Microsoft.Extensions.DependencyInjection.Abstractions Version 8.0.2" />
 
 ## Controllers
-+ <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
++ <PackageReference Include="Swashbuckle.AspNetCore Version 6.6.2" />
 
 ## Domain
 + .NET 8
 
 ## Infra
-+ <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.10" />
-+ <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="8.0.0" />
-+ <PackageReference Include="Microsoft.Extensions.Options" Version="8.0.2" />
-+ <PackageReference Include="Microsoft.IdentityModel.JsonWebTokens" Version="8.2.0" />
++ Microsoft.AspNetCore.Authentication.JwtBearer Version 8.0.10
++ Microsoft.Extensions.Configuration.Abstractions Version 8.0.0
++ Microsoft.Extensions.Options Version 8.0.2
++ Microsoft.IdentityModel.JsonWebTokens Version 8.2.0
 
 ## MinimalApi
-+ <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.10" />
-+ <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.10" />
-+ <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
++ Microsoft.AspNetCore.Authentication.JwtBearer Version 8.0.10
++ Microsoft.AspNetCore.OpenApi Version 8.0.10
++ Swashbuckle.AspNetCore Version 6.6.2
 
 ## Persistence 
-+ <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.10" />
-+ <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.1" />
-+ <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.10" />
-+ <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.10" />
-+ <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.10" />
-+ <PackageReference Include="Microsoft.Extensions.Options" Version="8.0.2" />
-+ <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="8.0.0" />
++ Microsoft.EntityFrameworkCore.Tools Version 8.0.10
++ Microsoft.Extensions.DependencyInjection Version 8.0.1
++ Microsoft.EntityFrameworkCore Version 8.0.10
++ Microsoft.EntityFrameworkCore.Design Version 8.0.10
++ Npgsql.EntityFrameworkCore.PostgreSQL Version 8.0.10
++ Microsoft.Extensions.Options Version 8.0.2
++ Microsoft.Extensions.Configuration.Abstractions Version 8.0.0
 
 # References
 + https://www.nikolatech.net/blogs/implement-jwt-authentication-in-dotnet
